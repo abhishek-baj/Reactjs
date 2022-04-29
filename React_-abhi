@@ -1,0 +1,117 @@
+React js notes:
+===============
+
+
+
+what is  React is really ?
+
+> React js is  offically  defined as "javascript library for creating  user interface";
+  but what does it really  mean?
+
+> react is library made in javascript and which we code  javascript  to, built great  application  that
+  can run on the web .
+
+============================================================================
+
+  what do  I need to know to React?
+
+  > simply to say basic of javascript  to become a solid react programmer.
+
+  > The  most basic  javascript oncepts you should be familiar with are variables,
+     basic data types, conditionals, array methods, functions, and ES modules.
+======================================================================
+
+
+ If React is made in javascript , why don't we just use javascript?
+
+ > while React js was written in javascript , which was bulit  from the ground  up  for  the
+   experts for buliding web applications and give us tools to do so.
+
+ > javascript is more then  20 year old programming language  which has created  for adding small bits
+    of behaviour to the browser  through scripts  and was not designed  for creating computer applications.
+
+>  JavaScript was used to create React, they were created
+    for very different purposes.
+===============================================================================
+
+Can I use JavaScript in React applications?
+
+> Yes! Any valid JavaScript code can be included within your React applications.
+
+> You can use any browser or window API, such as geolocation or the fetch API.
+
+> Also, since React (when it is compiled) runs in the browser, you can perform
+  common JavaScript actions like DOM querying and manipulation.
+================================================================================
+
+How to create react app?
+
+> Three different ways to create a React application
+
+1.Putting React in an HTML file with external scripts.
+
+2. Using an in-browser React environment like CodeSandbox.
+
+3.Creating a React app on your computer using a tool like Create React App. 
+
+=================================================================================
+
+What is the best way to create a React app?
+
+> If you want to create a complete web application that you want to ultimately
+  push to the web, it is best to create that React application on your computer
+  using a tool like Create React App.   
+
+> The easiest and most beginner-friendly way to create and build React apps for
+  learning and prototyping is to use a tool like CodeSandbox. You can create a
+  new React app in seconds by going to react.new!
+=============================================================================
+
+
+JSX Elements: JSX is a powerful tool for structuring applications
+============
+              > JSX is meant to make create user interfaces with JavaScript applications
+                easier.
+               
+              > JSX borrows its syntax from the most widely used programming language:
+                HTML .
+
+
+              > As a result, JSX is a powerful tool to structure our applications.
+              
+
+
+              > The code example below is the most basic example of a React element which
+                 displays the text "Hello World"  .  
+
+
+
+                 <div>Hello React!</div>
+
+
+
+
+
+How JSX differs from HTML?
+
+> We can write valid HTML element in JSX, but what differs slightly is the way
+  some attributes are written. 
+
+
+
+
+> Attributes that consist of multiple words are written in the camel-case syntax i.e
+  (className) nd have different names than standard HTML ( class ). 
+                       
+
+                   
+                         <div id="header">
+                         <h1 className="title">Hello React!</h1>
+                         </div>
+
+> The reason JSX has this different way of writing attributes is because it is
+  actually made using JavaScript functions.
+
+============================================================================
+
+
